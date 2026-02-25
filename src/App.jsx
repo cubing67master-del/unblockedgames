@@ -8,18 +8,10 @@ import { Search, Gamepad2, X, Maximize2, TrendingUp, Grid2X2, Info, Github } fro
 import { motion, AnimatePresence } from 'motion/react';
 import gamesData from './data/games.json';
 
-interface Game {
-  id: string;
-  title: string;
-  thumbnail: string;
-  category: string;
-  iframeUrl: string;
-}
-
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
+  const [selectedGame, setSelectedGame] = useState(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const categories = useMemo(() => {
@@ -35,7 +27,7 @@ export default function App() {
     });
   }, [searchQuery, selectedCategory]);
 
-  const handleGameClick = (game: Game) => {
+  const handleGameClick = (game) => {
     setSelectedGame(game);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
