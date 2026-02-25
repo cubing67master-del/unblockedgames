@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-gaming-neon: #00ff41;
+  --color-gaming-dark: #0a0a0a;
+  --color-gaming-card: #151515;
+  --color-gaming-border: #222222;
+}
+
+@layer base {
+  body {
+    @apply bg-gaming-dark text-white font-sans selection:bg-gaming-neon selection:text-black;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-gaming-card border border-gaming-border rounded-2xl overflow-hidden;
+  }
+  
+  .neon-glow {
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
+  }
+  
+  .neon-glow-hover:hover {
+    box-shadow: 0 0 25px rgba(0, 255, 65, 0.4);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gaming-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gaming-border rounded-full hover:bg-gaming-neon transition-colors;
+}

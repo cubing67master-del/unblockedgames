@@ -1,0 +1,58 @@
+[
+  {
+    "id": "slope",
+    "title": "Slope",
+    "thumbnail": "https://picsum.photos/seed/slope/400/300",
+    "category": "Action",
+    "iframeUrl": "https://slopegame.io/slope-game.embed"
+  },
+  {
+    "id": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
+    "category": "Arcade",
+    "iframeUrl": "https://tunnelrush.io/tunnel-rush.embed"
+  },
+  {
+    "id": "1v1-lol",
+    "title": "1v1.LOL",
+    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
+    "category": "Shooter",
+    "iframeUrl": "https://1v1.lol/"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "thumbnail": "https://picsum.photos/seed/retro/400/300",
+    "category": "Sports",
+    "iframeUrl": "https://game316009.konggames.com/gamez/0031/6009/live/index.html"
+  },
+  {
+    "id": "geometry-dash",
+    "title": "Geometry Dash",
+    "thumbnail": "https://picsum.photos/seed/geometry/400/300",
+    "category": "Platformer",
+    "iframeUrl": "https://geometry-dash.io/geometry-dash.embed"
+  },
+  {
+    "id": "bitlife",
+    "title": "BitLife",
+    "thumbnail": "https://picsum.photos/seed/bitlife/400/300",
+    "category": "Simulation",
+    "iframeUrl": "https://bitlifeonline.io/bitlife.embed"
+  },
+  {
+    "id": "drive-mad",
+    "title": "Drive Mad",
+    "thumbnail": "https://picsum.photos/seed/drive/400/300",
+    "category": "Racing",
+    "iframeUrl": "https://drivemad.io/drive-mad.embed"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "thumbnail": "https://picsum.photos/seed/cookie/400/300",
+    "category": "Idle",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/"
+  }
+]
